@@ -1,0 +1,87 @@
+.hidden{
+  
+  justify-content: center;
+  border-style: ridge;
+  background-color: beige;
+  display: none;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  padding-bottom: 10px;
+  justify-content: space-between;
+  display: flex;
+  word-break: break-all;
+  
+  
+}
+
+img {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  background-size: cover;
+  background-position: center;
+}
+
+#clock{
+  display: flex;
+  justify-content: center;
+  border-style: ridge;
+  background-color: beige;
+  border-radius: 20px;
+  width: 200px;
+}
+
+input{
+  border-radius: 15px;
+  background-color: beige;
+}
+
+#weather{
+  display: flex;
+  text-align: center;
+  border-style: ridge;
+  background-color: beige;
+  border-radius: 20px;
+  width: 200px;
+  font-weight: bolder;
+  margin-left: 50px
+}
+
+#quote{
+  display: flex;
+  justify-content: center;
+  border-style: ridge;
+  background-color: beige;
+  border-radius: 20px;
+  font-weight: bolder;
+  margin-top: 100px;
+  
+}
+
+
+#todo-list{
+
+  border-style: ridge;
+  background-color: beige;
+  border-radius: 20px;
+  font-weight: bolder;
+  margin-top: 50x;
+  margin-bottom: 100px;
+}
+
+#greeting{
+  border-style: ridge;
+  background-color: beige;
+  border-radius: 20px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
